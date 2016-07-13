@@ -4,6 +4,11 @@ Provides session functionality to the WebX Routes framework
 ##How to install
 In your Routes project in the bootstrap action:
 
+composer.json
+```json
+require : {
+    "webx/routes-session" : "0.1.0"
+}
 
 Minimum Routes version: 0.6.0
 
