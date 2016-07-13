@@ -9,8 +9,9 @@ composer.json
 require : {
     "webx/routes-session" : "0.1.0"
 }
+```
 
-Minimum Routes version: 0.6.0
+Minimum WebX/Routes version: 0.6.0
 
 ```php
 use WebX\Routes\Session\Api\Session;
