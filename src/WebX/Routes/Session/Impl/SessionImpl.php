@@ -1,10 +1,11 @@
 <?php
 
-namespace WebX\Routes\Session\Api;
+namespace WebX\Routes\Session\Impl;
 
 use WebX\Routes\Api\Request;
 use WebX\Routes\Api\Response;
 use WebX\Routes\Api\RoutesListener;
+use WebX\Routes\Session\Api\Session;
 
 class SessionImpl implements RoutesListener, Session
 {

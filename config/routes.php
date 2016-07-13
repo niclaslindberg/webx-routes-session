@@ -1,6 +1,6 @@
 <?php
 
-use WebX\Routes\Session\Api\SessionImpl;
+use WebX\Routes\Session\Impl\SessionImpl;
 use WebX\Routes\Session\Api\SessionListener;
 
 return [
