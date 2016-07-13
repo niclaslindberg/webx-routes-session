@@ -9,7 +9,7 @@ Minimum Routes version 0.6.0
 ```php
 use WebX\Routes\Session\Api\Session;
 
-RoutesBootstrap::run([function(Routes $routes, Session $session, Response $response) {
+RoutesBootstrap::run([function(Session $session, Response $response) {
     $count = ($session->data("count") ?: 0) + 1;
     $response->typeJson(["count"=>$count]);
     $session->setData("count",$count);
