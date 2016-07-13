@@ -1,0 +1,29 @@
+{
+  "name" : "webx/routes-session",
+  "autoload" : {
+    "psr-4": {
+      "WebX\\Routes\\Session\\": "src/WebX/Routes/Session"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4": {
+      "Test\\WebX\\": "tests"
+    }
+  },
+  "require" : {
+    "webx/routes" : ">=0.6.0"
+  },
+  "require-dev" : {
+    "larapack/dd" : "1.0.0",
+    "php": ">=5.5.0",
+    "phpunit/phpunit" : "4.8.16"
+  },
+  "authors": [
+    {
+      "name": "Nillsoft AB",
+      "email": "niclas.lindberg@nillsoft.com",
+      "homepage": "http://www.nillsoft.com"
+    }
+  ],
+  "license": "MIT"
+}
