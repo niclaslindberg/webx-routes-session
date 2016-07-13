@@ -4,7 +4,8 @@ Provides session functionality to the WebX Routes framework
 ##How to install
 In your Routes project in the bootstrap action:
 
-Minimum Routes version 0.6.0
+
+Minimum Routes version: 0.6.0
 
 ```php
 use WebX\Routes\Session\Api\Session;
